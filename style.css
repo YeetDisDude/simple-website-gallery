@@ -1,0 +1,44 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+body {
+  background: linear-gradient(to left top, #03dffc, #037ffc) fixed;
+}
+
+img {
+  border-radius: 2%;
+  max-width: 70%;
+  height: auto;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+img {
+width: 100%;
+}
+}
+
+hr.rounded {
+  border-top: 3px solid #fff;
+  border-radius: 10px;
+  max-width: 70%
+}
+
+h2 {
+  font-size: 17px;
+}
